@@ -37,7 +37,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argone/' feeds/luci/collections/luci/M
 rm -rf feeds/packages/net/mosdns
 rm -rf feeds/luci/applications/luci-app-mosdns
 git clone --depth=1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
-git clone  https://github.com/vernesong/OpenClash.git package/openclash
+# git clone  https://github.com/vernesong/OpenClash.git package/openclash
 #4.去除默认主题
 sed -i 's/+luci-theme-bootstrap/ /g' feeds/luci/collections/luci/Makefile
 
